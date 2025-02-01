@@ -1,0 +1,31 @@
+Customer ID, Aisle, Seat, Aisle, Seat, Aisle, Seat, Aisle, Seat
+101, 3, 5, 3, 6, 3, 7, 3, 8  # Center seats in the middle aisle
+102, 3, 7, 3, 8  # Conflict with Customer 101
+102, 3, 3, 3, 4  # Successful re-booking for Customer 102
+103, 2, 5, 2, 6, 2, 7, 2, 8  # Center seats in the upper-middle aisle
+104, 4, 5, 4, 6, 4, 7, 4, 8  # Center seats in the lower-middle aisle
+105, 2, 3, 2, 4
+106, 2, 7, 2, 8  # Conflict with Customer 103
+106, 2, 9, 2, 10 # Successful re-booking for Customer 106
+107, 4, 3, 4, 4
+108, 4, 5, 4, 6  # Conflict with Customer 104
+108, 4, 9, 4, 10 # Successful re-booking for Customer 108
+109, 3, 9, 3, 10
+110, 1, 5, 1, 6, 1, 7, 1, 8  # Center seats in aisle 1
+111, 5, 5, 5, 6, 5, 7, 5, 8  # Center seats in aisle 5
+112, 1, 3, 1, 4
+113, 1, 7, 1, 8  # Conflict with Customer 110
+113, 1, 9, 1, 10 # Successful re-booking for Customer 113
+114, 5, 3, 5, 4
+115, 5, 7, 5, 8  # Conflict with Customer 111
+115, 5, 9, 5, 10 # Successful re-booking for Customer 115
+116, 3, 1, 3, 2
+117, 3, 11, 3, 12
+118, 1, 1, 1, 2
+119, 5, 1, 5, 2
+120, 2, 11, 2, 12
+121, 4, 11, 4, 12
+122, 1, 11, 1, 12
+123, 5, 11, 5, 12
+124, 2, 1, 2, 2
+125, 4, 1, 4, 2
